@@ -10,7 +10,6 @@ CREATE TABLE [dbo].[Book]
     [Title] NVARCHAR(100) NOT NULL,
     [Summary] NVARCHAR(300) NOT NULL,
     [Price] DECIMAL,
-    [ISBN] NVARCHAR(17) UNIQUE NOT NULL -- Including the hyphens
-    -- Specify more columns here
+    [ISBN] NVARCHAR(17) UNIQUE NOT NULL -- Including the hyphens for ISBN-13
 );
 GO

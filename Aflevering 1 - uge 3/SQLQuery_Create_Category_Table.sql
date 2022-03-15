@@ -8,6 +8,5 @@ CREATE TABLE [dbo].[Category]
 (
     [CategoryId] INT NOT NULL IDENTITY (1,1) PRIMARY KEY, -- Primary Key column
     [CategoryName] NVARCHAR(50) NOT NULL
-    -- Specify more columns here
 );
 GO

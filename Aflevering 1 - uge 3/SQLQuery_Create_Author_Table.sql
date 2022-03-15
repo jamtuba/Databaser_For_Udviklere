@@ -11,6 +11,5 @@ CREATE TABLE [dbo].[Author]
     [MiddleName] NVARCHAR(50),
     [LastName] NVARCHAR(50) NOT NULL,
     [EmailAddress] NVARCHAR(100) UNIQUE NOT NULL
-    -- Specify more columns here
 );
 GO
