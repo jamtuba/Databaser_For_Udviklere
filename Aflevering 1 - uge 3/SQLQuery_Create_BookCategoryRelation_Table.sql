@@ -8,11 +8,7 @@ CREATE TABLE [dbo].[BookCategoryRelation]
 (
     [BookId]INT NOT NULL,
     [CategoryId] INT NOT NULL, 
-    CONSTRAINTS PK_BookCategoryRelation PRIMARY KEY
-    (
-        BookId,
-        CategoryId
-    )
+    PRIMARY KEY(BookId, CategoryId),
     FOREIGN KEY (BookId) REFERENCES Book (Id),
     FOREIGN KEY (CategoryId) REFERENCES Category (Id)
 );

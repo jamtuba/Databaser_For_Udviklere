@@ -8,11 +8,7 @@ CREATE TABLE [dbo].[AuthorBookRelation]
 (
     [AuthorId] INT NOT NULL, 
     [BookId]INT NOT NULL,
-    CONSTRAINTS PK_AuthorBookRelation PRIMARY KEY
-    (
-        AuthorId,
-        BookId
-    )
+    PRIMARY KEY(AuthorId, BookId),
     FOREIGN KEY (AuthorId) REFERENCES Author (Id),
     FOREIGN KEY (BookId) REFERENCES Book (Id)
 );

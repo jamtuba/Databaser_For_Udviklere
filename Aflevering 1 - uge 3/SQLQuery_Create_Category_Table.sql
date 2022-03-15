@@ -6,7 +6,7 @@ GO
 -- Create the table in the specified schema
 CREATE TABLE [dbo].[Category]
 (
-    [CategoryId] INT NOT NULL IDENTITY (1,1) PRIMARY KEY, -- Primary Key column
+    [Id] INT NOT NULL IDENTITY (1,1) PRIMARY KEY, -- Primary Key column
     [CategoryName] NVARCHAR(50) NOT NULL
 );
 GO
