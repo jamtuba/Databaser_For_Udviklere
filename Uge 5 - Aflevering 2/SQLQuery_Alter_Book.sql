@@ -1,0 +1,2 @@
+ALTER TABLE [dbo].[Book]
+DROP COLUMN Price;
