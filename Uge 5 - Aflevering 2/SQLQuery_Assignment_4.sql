@@ -1,4 +1,4 @@
-SELECT Title, FirstName + ' ' + LastName, ISBN, Price, PriceDate
+SELECT Title, FirstName + ' ' + LastName AS Fullname, ISBN, Price, PriceDate
 FROM Book as b 
 JOIN AuthorBookRelation abr on abr.BookId = b.Id
 JOIN Author a on a.Id = abr.AuthorId
