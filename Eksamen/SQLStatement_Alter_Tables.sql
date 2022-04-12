@@ -2,7 +2,7 @@
 USE NordicSheetMusic;
 GO
 
--- Opdatering af Sheetmusic, tilføjelse af junction tabal mellem SheetMusic og Publisher
+-- Opdatering af Sheetmusic, tilføjelse af junction tabel mellem SheetMusic og Publisher
 DROP TABLE IF EXISTS [dbo].[SheetMusicPublisherRelation];
 GO
 
